@@ -1,0 +1,51 @@
+# answer 1:
+
+mkdir dirname
+git init
+
+# answer 2:
+
+git config user.name "YourName"
+git config user.email "YourEmail"
+
+# answer 3:
+touch FileName.txt
+or
+touch Codefile.py
+or ...
+
+# answer 4:
+git status
+
+# answer 5:
+git add Codefile.py
+or:
+git add --all
+
+# answer 6:
+git status
+git commit -m "Your Message"
+
+
+# answer 7:
+
+# compare difference between this and previous commit
+git diff HEAD^ fileName
+
+or:
+# compare difference between this and ~number commited before
+git diff HEAD~1 fileName
+
+or:
+# to check differences in entire repository
+git diff 
+
+
+
+
+
+
+
+
+
+
